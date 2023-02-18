@@ -13,3 +13,12 @@ Save file
 
 Save and quit
 - :wq
+
+
+Read Only Mode
+- vim -R file_name.md
+
+OR
+
+- view file_name.md
+

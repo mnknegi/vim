@@ -4,6 +4,7 @@
 * [Vim Modes](#Vim-modes)
 * [Create New File](#Create-New-File)
 * [Save File](#Save-File)
+* [Read Only Mode](#Read-Only-Mode)
 
 ## Vim Modes
 
@@ -44,3 +45,13 @@ Above commmand is used to save the changes.
 > :wq
 
 Above command is used to save the changes and quit Vim.
+
+## Read Only Mode
+
+Use -R to open file in read-only mode.
+
+> vim -R file_name.md
+
+Alternatively we can also use view command
+
+> view file_name.md
