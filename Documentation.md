@@ -2,7 +2,8 @@
 
 ## Index
 * [Vim Modes](#Vim-modes)
-* [New File](#New-File)
+* [Create New File](#Create-New-File)
+* [Save File](#Save-File)
 
 ## Vim Modes
 
@@ -28,3 +29,18 @@ In this mode we can visually select text and and run command on selected section
 	- To switch from command mode to visual mode type v.
 	- To switch from any other mode to visual mode, first switch back to command mode by pressing escape, then type v
 
+## Create New File
+
+Following command is used to create a new file in Vim. If the file is already exist then it opens the file in Vim mode.
+
+> :edit file_name.extension
+
+## Save File
+
+> :w
+
+Above commmand is used to save the changes.
+
+> :wq
+
+Above command is used to save the changes and quit Vim.
