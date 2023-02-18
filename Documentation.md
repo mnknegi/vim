@@ -21,7 +21,7 @@
 	- Substitute(#Substitute)
 		+[Single Character Substitution](#Single-Character-Substitution)
 		+[Line Substitution](#Line-Substitution)
-	- Change(#Change)
+		+[Substitution After Character](#Substitution-After-Character)
 	- Replace(#Replace)
 	- Join(#Join)
 
@@ -178,5 +178,22 @@ Step 2: Take the curser on the line which you want to substitute.
 Step 3: Press S.
 ```
 
+OR
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser on the line which you want to substitute.
+Step 3: Press cc.
+```
+
 This action will delete the entire line and switch the Vim in Insert mode.
 
+#### Substitution After Character
+
+If you want to substitute a portion of a line after a character including that character then do this.
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser on the character after which you want to substitute including that character.
+Step 3: Press C.
+```
