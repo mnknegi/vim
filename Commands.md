@@ -14,6 +14,9 @@ Save file
 Save and quit
 - :wq
 
+Quit without saving
+- :q!
+
 
 Read Only Mode
 - vim -R file_name.md

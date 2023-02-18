@@ -5,6 +5,7 @@
 * [Create New File](#Create-New-File)
 * [Save File](#Save-File)
 * [Read Only Mode](#Read-Only-Mode)
+* [Edit Existing File](#Edit-Existing-File)
 
 ## Vim Modes
 
@@ -55,3 +56,12 @@ Use -R to open file in read-only mode.
 Alternatively we can also use view command
 
 > view file_name.md
+
+## Edit Existing File
+
+```
+Step 1: Open file in vim mode.
+Step 2: Switch to inset mode and change some text.
+Step 3: Save and quit using `:wq`.
+Step 4: Quit without saving using `:q!`.
+```
