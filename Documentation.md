@@ -11,6 +11,16 @@
 * [Read Only Mode](#Read-Only-Mode)
 * [Edit Existing File](#Edit-Existing-File)
 * [Getting Help](#Getting-Help)
+* [Vim Editing](#Vim-Editing)
+	- Insert(#Insert)
+		+ [At The Beginning](#At-The-Beginning)
+		+ [At The End](#At-The-End)
+	- Append(#Append)
+	- Open New Line(#Open-New-Line)
+	- Substitute(#Substitute)
+	- Change(#Change)
+	- Replace(#Replace)
+	- Join(#Join)
 
 ## Vim Modes
 
@@ -88,3 +98,31 @@ Here in above command replace topic with the topic you want help.
 If we don't know the name we can still search for the topic using only a phrase.
 
 > :helpgrep phrase (e.g. :helpgrep navigation)
+
+## Vim Editing
+
+### Insert
+
+To insert any text use `i` key.
+
+#### At The Beginning
+
+If you are in the middle of a line and want to jump to the beginning of the line you can follow below steps.
+
+```
+Step 1: Press Esc.
+Step 2: Press I.
+```
+
+This will take you to the starting of the current line in which you are working.
+
+#### At The End
+
+If you are in the middle of a line and want to jump to the end of the line you can follow below steps.
+
+```
+Step 1: Press Esc.
+Step 2: Press A.
+```
+
+This will take you to the end of the current line in which you are working.
