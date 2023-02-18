@@ -25,3 +25,8 @@ OR
 
 - view file_name.md
 
+Getting Help
+- :help
+- :help topic_name
+- :helpgrep phrase
+

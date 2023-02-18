@@ -2,10 +2,15 @@
 
 ## Index
 * [Vim Modes](#Vim-modes)
+	- [Command Mode](#Command-Mode)
+	- [Insert Mode](#Insert-Mode)
+	- [Command Line Mode](#Command-Line-Mode)
+	- [Visual Mode](#Visual-Mode)
 * [Create New File](#Create-New-File)
 * [Save File](#Save-File)
 * [Read Only Mode](#Read-Only-Mode)
 * [Edit Existing File](#Edit-Existing-File)
+* [Getting Help](#Getting-Help)
 
 ## Vim Modes
 
@@ -62,6 +67,24 @@ Alternatively we can also use view command
 ```
 Step 1: Open file in vim mode.
 Step 2: Switch to inset mode and change some text.
-Step 3: Save and quit using `:wq`.
-Step 4: Quit without saving using `:q!`.
+Step 3: Save and quit using :wq.
+Step 4: Quit without saving using :q!.
 ```
+
+## Getting Help
+
+Vim editor is command rich and it is not easy to remember every command. No worries, Vim can provide all the help we need using help command.
+
+> :help
+
+This command is used to access help.
+
+To access help on specific topic the below command is used.
+
+> :help topic
+
+Here in above command replace topic with the topic you want help.
+
+If we don't know the name we can still search for the topic using only a phrase.
+
+> :helpgrep phrase (e.g. :helpgrep navigation)
