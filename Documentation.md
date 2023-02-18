@@ -19,6 +19,8 @@
 		+ [Below Current Line](#Below-Current-Line)
 		+ [Above Current Line](#Above-Current-Line)
 	- Substitute(#Substitute)
+		+[Single Character Substitution](#Single-Character-Substitution)
+		+[Line Substitution](#Line-Substitution)
 	- Change(#Change)
 	- Replace(#Replace)
 	- Join(#Join)
@@ -151,4 +153,30 @@ Step 2: Press O.
 ```
 
 This action will insert a new line above the current line and switch to insert mode.
+
+### Substitute
+
+#### Single Character Substitution
+
+If you want to substitute a single character the follow below steps.
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser over the character which you want to substitute.
+Step 3: Press s.
+```
+
+This action will delete the character and switch the Vim in Insert mode.
+
+#### Line Substitution
+
+If you want to substitute a whole line then do this.
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser on the line which you want to substitute.
+Step 3: Press S.
+```
+
+This action will delete the entire line and switch the Vim in Insert mode.
 
