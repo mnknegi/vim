@@ -15,8 +15,9 @@
 	- Insert(#Insert)
 		+ [At The Beginning](#At-The-Beginning)
 		+ [At The End](#At-The-End)
-	- Append(#Append)
 	- Open New Line(#Open-New-Line)
+		+ [Below Current Line](#Below-Current-Line)
+		+ [Above Current Line](#Above-Current-Line)
 	- Substitute(#Substitute)
 	- Change(#Change)
 	- Replace(#Replace)
@@ -126,3 +127,28 @@ Step 2: Press A.
 ```
 
 This will take you to the end of the current line in which you are working.
+
+### Open New Line
+
+#### Below Current Line
+
+If you are in the middle of a line and want to open a new line below the current line then follow below steps.
+
+```
+Step 1: Press Esc.
+Step 2: Press o.
+```
+
+This action will insert a new line below the current line and switch to insert mode.
+
+#### Above Current Line
+
+If you are in the middle of a line and want to open a new line above the current line then follow below steps.
+
+```
+Step 1: Press Esc.
+Step 2: Press O.
+```
+
+This action will insert a new line above the current line and switch to insert mode.
+
