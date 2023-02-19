@@ -36,3 +36,8 @@ Navigation
 - 7h (Move curser left by 7 position)
 - 3l (Move curser right by 3 position)
 
+Swap file name
+- :swapname
+
+
+

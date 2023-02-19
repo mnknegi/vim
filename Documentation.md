@@ -27,6 +27,11 @@
 		+ [Replace A Line](#Replace-A-Line)
 	- [Join](#Join)
 * [Navigation](#Navigation)
+* [Cut Copy And Paste](#Cut-Copy-And-Paste)
+	- [Buffer](#Buffer)
+	- [Swap Files](#Swap-Files)
+	- [Cut Copy Delete And Paste](#Cut-Copy-Delete-And-Paste)
+	- [Undo And Redu](#Undo-And-Redu)
 
 ## Vim Modes
 
@@ -251,4 +256,19 @@ Step 3: Press J.
 |:$       |Jump to the end of the file.                    |
 |Ctrl + f |Scroll down entire page.             		   |
 |ctrl + b |Scroll up entire page.  		   				   |
+
+### Cut Copy And Paste
+
+#### Buffer
+
+It is a temporary memory used by Vim. When we open a Vim file it's content loads from disk drive. when we are editing a file we are actually editing file from buffer. When we finish editing and save file then only buffer contents are transferred to appropriate file.
+
+#### Swap
+
+Swap is a file created by Vim to store buffer content periodically. When editing our file our changes may be lost because of any reason. Vim provides swap file to recover those changes.
+
+To get name of the swap file execute following command.
+
+> :swapname
+
 
