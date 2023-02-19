@@ -227,3 +227,11 @@ Step 4: Enter the new characters.
 ``` 
 
 This action will replace the characters from the position your curser is. This operation do not switch the Vim in Insert mode.
+
+### Join
+
+```
+Step 1: Press Escape.
+Step 2: Move to the appropriate line.
+Step 3: Press J.
+```
