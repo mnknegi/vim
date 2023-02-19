@@ -30,3 +30,9 @@ Getting Help
 - :help topic_name
 - :helpgrep phrase
 
+Navigation
+- 10j (Move curser down by 10 position)
+- 5k (Move curser up by 5 position)
+- 7h (Move curser left by 7 position)
+- 3l (Move curser right by 3 position)
+

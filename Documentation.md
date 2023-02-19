@@ -26,6 +26,7 @@
 		+ [Replace A Character](#Replace-A-Character)
 		+ [Replace A Line](#Replace-A-Line)
 	- [Join](#Join)
+* [Navigation](#Navigation)
 
 ## Vim Modes
 
@@ -235,3 +236,19 @@ Step 1: Press Escape.
 Step 2: Move to the appropriate line.
 Step 3: Press J.
 ```
+
+### Navigation
+
+|Command  | Description                                    |
+|---------|------------------------------------------------|
+|h        |Move curser to left by one position.  		   |
+|l        |Move curser to right by one position. 		   |
+|k        |Move curser to up by one position.    		   |
+|j        |Move curser to down by one position.  		   |
+|0        |Move curser to the beginning of current line.   |
+|:0       |Jump to the start of the file.                  |
+|$        |Move curser to the end of current line.  	   |
+|:$       |Jump to the end of the file.                    |
+|Ctrl + f |Scroll down entire page.             		   |
+|ctrl + b |Scroll up entire page.  		   				   |
+
