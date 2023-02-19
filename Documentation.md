@@ -197,3 +197,31 @@ Step 1: Press Esc.
 Step 2: Take the curser on the character after which you want to substitute including that character.
 Step 3: Press C.
 ```
+
+### Replace
+
+#### Replace A Character
+
+To Replace the character.
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser on the character which you want to replace.
+Step 3: Press r.
+Step 4: Enter the new character.
+``` 
+
+This action will replace the character. This operation do not switch the Vim in Insert mode.
+
+#### Replace A Line
+
+To Replace the Line.
+
+```
+Step 1: Press Esc.
+Step 2: Take the curser on the line from where you want to replace the line.
+Step 3: Press R.
+Step 4: Enter the new characters.
+``` 
+
+This action will replace the characters from the position your curser is. This operation do not switch the Vim in Insert mode.
