@@ -39,5 +39,7 @@ Navigation
 Swap file name
 - :swapname
 
-
+Multiline Editing operation
+- 2dd (Cut 2 lines from the line where cursor is positioned.)
+- 2D (Cut 2 lines from the cursor position.)
 

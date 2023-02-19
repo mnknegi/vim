@@ -27,10 +27,10 @@
 		+ [Replace A Line](#Replace-A-Line)
 	- [Join](#Join)
 * [Navigation](#Navigation)
-* [Cut Copy And Paste](#Cut-Copy-And-Paste)
+* [Editing Actions](#Editing-Actions)
 	- [Buffer](#Buffer)
 	- [Swap Files](#Swap-Files)
-	- [Cut Copy Delete And Paste](#Cut-Copy-Delete-And-Paste)
+	- [Cut Copy Delete And Paste Actions](#Cut-Copy-Delete-And-Paste-Actions)
 	- [Undo And Redu](#Undo-And-Redu)
 
 ## Vim Modes
@@ -257,7 +257,7 @@ Step 3: Press J.
 |Ctrl + f |Scroll down entire page.             		   |
 |ctrl + b |Scroll up entire page.  		   				   |
 
-### Cut Copy And Paste
+### Editing Actions
 
 #### Buffer
 
@@ -271,4 +271,18 @@ To get name of the swap file execute following command.
 
 > :swapname
 
+#### Cut Copy And Paste Actions
+
+|Command  | Description                                    |
+|---------|------------------------------------------------|
+|x        |Cut single character from cursor position.  	   |
+|X        |Cut single character from previous position.    |
+|y        |Copy single character from cursor position.     |
+|p        |Paste single character after cursor position.   |
+|P        |Paste single character before cursor position.  |
+|dw       |Cut word from cursor position.   			   |
+|D        |Cut entire line from cursor position.		   |
+|dd       |Cut entire line.								   |
+|Y        |Copy entire line.  							   |
+|yy       |Copy entire line.							   |
 
