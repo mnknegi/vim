@@ -39,7 +39,26 @@ Navigation
 Swap file name
 - :swapname
 
+Cut, Copy and Paste
+- dw (Cut word from cursor position including the character).
+- D (Cut line after cursor position including the character on that position).
+- dd (Cut entire line).
+- p (Paste character or line after cursor position).
+- P (Paste character or line before cursor position).
+- Y or yy (copy entire line).
+
 Multiline Editing operation
 - 2dd (Cut 2 lines from the line where cursor is positioned.)
 - 2D (Cut 2 lines from the cursor position.)
+- 3Y (Copy or yank 3 lines from cursor position.)
+
+Undo
+- u
+
+Redu
+- ctrl + r
+
+OR
+
+- :red
 

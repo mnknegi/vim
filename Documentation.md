@@ -277,12 +277,25 @@ To get name of the swap file execute following command.
 |---------|------------------------------------------------|
 |x        |Cut single character from cursor position.  	   |
 |X        |Cut single character from previous position.    |
-|y        |Copy single character from cursor position.     |
-|p        |Paste single character after cursor position.   |
-|P        |Paste single character before cursor position.  |
+|y (yank) |Copy single character from cursor position.     |
+|p        |Paste character or line after cursor position.  |
+|P        |Paste character or line before cursor position. |
 |dw       |Cut word from cursor position.   			   |
 |D        |Cut entire line from cursor position.		   |
 |dd       |Cut entire line.								   |
 |Y        |Copy entire line.  							   |
 |yy       |Copy entire line.							   |
 
+#### Undo And Redu
+
+To undo last action use
+
+> u
+
+To perform multiple undo use
+
+> 3u (undo last 3 actions)
+
+To Redu the last Undo.
+
+> ctrl + r or :red 
