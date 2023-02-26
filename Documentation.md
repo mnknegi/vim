@@ -54,9 +54,9 @@ Command in this mode starts with colon(:). Any Vim command starting with colon i
 
 ### Visual Mode 
 
-In this mode we can visually select text and and run command on selected section.
-	- To switch from command mode to visual mode type v.
-	- To switch from any other mode to visual mode, first switch back to command mode by pressing escape, then type v
+In this mode we can visually select text and run command on selected section.
+* To switch from command mode to visual mode type v.
+* To switch from any other mode to visual mode, first switch back to command mode by pressing escape, then type v
 
 ## Create New File
 
@@ -80,7 +80,7 @@ Use -R to open file in read-only mode.
 
 > vim -R file_name.md
 
-Alternatively we can also use view command
+Alternatively we can also use view command.
 
 > view file_name.md
 
@@ -89,8 +89,7 @@ Alternatively we can also use view command
 ```
 Step 1: Open file in vim mode.
 Step 2: Switch to inset mode and change some text.
-Step 3: Save and quit using :wq.
-Step 4: Quit without saving using :q!.
+Step 3: Save and quit using `:wq` or `:q!` to quit without saving.
 ```
 
 ## Getting Help
@@ -105,7 +104,7 @@ To access help on specific topic the below command is used.
 
 > :help topic
 
-Here in above command replace topic with the topic you want help.
+Here in above command replace topic with the topic on which you want help.
 
 If we don't know the name we can still search for the topic using only a phrase.
 
@@ -123,7 +122,7 @@ If you are in the middle of a line and want to jump to the beginning of the line
 
 ```
 Step 1: Press Esc.
-Step 2: Press I.
+Step 2: Press `I`.
 ```
 
 This will take you to the starting of the current line in which you are working.
@@ -134,7 +133,7 @@ If you are in the middle of a line and want to jump to the end of the line you c
 
 ```
 Step 1: Press Esc.
-Step 2: Press A.
+Step 2: Press `A`.
 ```
 
 This will take you to the end of the current line in which you are working.
@@ -147,7 +146,7 @@ If you are in the middle of a line and want to open a new line below the current
 
 ```
 Step 1: Press Esc.
-Step 2: Press o.
+Step 2: Press `o`.
 ```
 
 This action will insert a new line below the current line and switch to insert mode.
@@ -158,7 +157,7 @@ If you are in the middle of a line and want to open a new line above the current
 
 ```
 Step 1: Press Esc.
-Step 2: Press O.
+Step 2: Press `O`.
 ```
 
 This action will insert a new line above the current line and switch to insert mode.
@@ -172,7 +171,7 @@ If you want to substitute a single character the follow below steps.
 ```
 Step 1: Press Esc.
 Step 2: Take the curser over the character which you want to substitute.
-Step 3: Press s.
+Step 3: Press `s`.
 ```
 
 This action will delete the character and switch the Vim in Insert mode.
@@ -184,7 +183,7 @@ If you want to substitute a whole line then do this.
 ```
 Step 1: Press Esc.
 Step 2: Take the curser on the line which you want to substitute.
-Step 3: Press S.
+Step 3: Press `S`.
 ```
 
 OR
@@ -192,7 +191,7 @@ OR
 ```
 Step 1: Press Esc.
 Step 2: Take the curser on the line which you want to substitute.
-Step 3: Press cc.
+Step 3: Press `cc`.
 ```
 
 This action will delete the entire line and switch the Vim in Insert mode.
@@ -204,7 +203,7 @@ If you want to substitute a portion of a line after a character including that c
 ```
 Step 1: Press Esc.
 Step 2: Take the curser on the character after which you want to substitute including that character.
-Step 3: Press C.
+Step 3: Press `C`.
 ```
 
 ### Replace
@@ -216,7 +215,7 @@ To Replace the character.
 ```
 Step 1: Press Esc.
 Step 2: Take the curser on the character which you want to replace.
-Step 3: Press r.
+Step 3: Press `r`.
 Step 4: Enter the new character.
 ``` 
 
@@ -229,7 +228,7 @@ To Replace the Line.
 ```
 Step 1: Press Esc.
 Step 2: Take the curser on the line from where you want to replace the line.
-Step 3: Press R.
+Step 3: Press `R`.
 Step 4: Enter the new characters.
 ``` 
 
@@ -240,7 +239,7 @@ This action will replace the characters from the position your curser is. This o
 ```
 Step 1: Press Escape.
 Step 2: Move to the appropriate line.
-Step 3: Press J.
+Step 3: Press `J`.
 ```
 
 ### Navigation

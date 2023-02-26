@@ -30,6 +30,30 @@ Getting Help
 - :help topic_name
 - :helpgrep phrase
 
+Insert and Navigation Operation
+|Command            |Description                                                                                        |
+|-------------------|---------------------------------------------------------------------------------------------------|
+|I                  |Take cursor to the beginning of the line.                                                          |
+|A                  |Take cursor to the end of the line.                                                                |
+|O                  |Open a new line above the current line.                                                            |
+|o                  |Open a new line below the current line.                                                            |
+|s                  |Delete for substitution of a single character and switch to Vim mode.                              |
+|S OR cc            |Delete for substitution of a whole line and switch to Vim mode.                                    |
+|C                  |Delete a portion of a line for substitution after the cursor.                                      |
+|r                  |Replace a single character and make it editable without switching to Vim mode.                     |
+|R                  |Replace a portion of line and make it editable from cursor position without switching to Vim mode. |
+|J                  |Join to lines.                                                                                     |
+|h                  |Move left.                                                                                         |
+|j                  |Move down.                                                                                         |
+|k                  |Move up.                                                                                           |
+|l                  |Move right.                                                                                        |
+|0                  |Jump to the beginning of a current line.                                                           |
+|:0                 |Jump to the beginning to the file.                                                                 |
+|$                  |Jump to the end of a current line.                                                                 |
+|:$                 |Jump to the end of a the file.                                                                     |
+|ctrl + f           |Scroll down entire page.                                                                           |
+|ctrl + b           |Scroll up entire page.                                                                             |
+
 Navigation
 - 10j (Move curser down by 10 position)
 - 5k (Move curser up by 5 position)
