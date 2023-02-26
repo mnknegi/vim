@@ -35,7 +35,7 @@
 
 ## Vim Modes
 
-Vim Supports multiple modes.
+Vim is a configurable text editor build to create and change any kind of text efficiently. Vim Supports multiple modes.
 
 ### Command Mode 
 
@@ -47,9 +47,10 @@ We can use this mode to enter/edit text. To switch from default command to inser
 
 ### Command Line Mode 
 
-Command in this mode starts with colon(:). above quit command is entered in this mode. Any Vim command starting with colon indicates that we are executing that command in command line mode.
-	- To switch from command mode to this mode use colon.
-	- To switch from insert mode to this mode press escape and type colon.
+Command in this mode starts with colon(:). Any Vim command starting with colon indicates that we are executing that command in command line mode.
+* To switch from command mode to this mode use colon.
+* To switch from insert mode to this mode press escape and type colon.
+
 
 ### Visual Mode 
 
