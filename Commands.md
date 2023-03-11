@@ -119,4 +119,14 @@ Disable Search Operation
 |//                 |Without enter jump to prevoius search result.                                                     	|
 
 
+|Command            |Description                                                                                        |
+|-------------------|---------------------------------------------------------------------------------------------------|
+|*                  |Search a word in forward direction.                                                    			|
+|#            		|Search a word in backward direction.                                                               |
 
+
+|Command           		|Description                                                                                        |
+|-----------------------|---------------------------------------------------------------------------------------------------|
+|:vimgrep <word> \*.ext |Search a word in backward direction in multiple files.                                             |
+|:cn                	|Search a word in forward direction in multiple files.                                              |
+|:cN            		|Search a word in backward direction in multiple files.                                             |

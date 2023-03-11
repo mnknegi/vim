@@ -36,7 +36,6 @@
 	- [Search Settings](#Search-Settings)
 	- [Search In Current File](#Search-In-Current-File)
 	- [Search In Multiple Files](#Search-In-Multiple-Files)
-	- [Search In Help Files](#Search-In-Help-Files)
 
 ## Vim Modes
 
@@ -328,8 +327,14 @@ To disable incremental and highlighted search use below commands.
 
 ### Search In Current File
 
+Use `/` or `?` to search in forward and backward direction respectively. use `n` or `N` to jump to the next search result in forward and backward direction.
 
+Use `*` and `#` while cursor on the word which you want to search in other places of the file in forward and backward direction respectively.
+
+See [Command.md](/Command.md) for more info.
 
 ### Search In Multiple Files
 
-### Search In Help Files
+Use `vimgrep` command to search for a pattern in multiple files.
+
+> :vimgrep <pattern> \*.extension (e.g. :vimgrep Search \*.md)
