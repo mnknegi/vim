@@ -89,3 +89,34 @@ OR
 
 - :red
 
+Search Operations
+
+Enable Search Option
+- :set incsearch
+- :set hlsearch
+
+Disable Search Operation
+- :set noincsearch
+- :set nohlsearch
+
+|Command            |Description                                                                                        |
+|-------------------|---------------------------------------------------------------------------------------------------|
+|/                 	|Search Expression in forward direction.                                             				|
+|n                  |Find next occurence.                           													|
+|N                 	|Find previous occurence.                                                               			|
+|//                 |Repeat previous forward search.                                                     				|
+|Ctrl + t           |Without enter jump to prevoius search result.                                                     	|
+|Ctrl + g           |Without enter jump to next search result.                                                     		|
+
+
+|Command            |Description                                                                                        |
+|-------------------|---------------------------------------------------------------------------------------------------|
+|?                  |Search Expression in backward direction.                                                    		|
+|n            		|Find previous occurence.                                                                           |
+|N            		|Find next occurence.                                                                               |
+|??            		|Repeat previous backward search.                                                                   |
+|//                 |Without enter jump to next search result.                                                     		|
+|//                 |Without enter jump to prevoius search result.                                                     	|
+
+
+

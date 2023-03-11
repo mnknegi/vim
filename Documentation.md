@@ -33,6 +33,10 @@
 	- [Cut Copy Delete And Paste Actions](#Cut-Copy-Delete-And-Paste-Actions)
 	- [Undo And Redu](#Undo-And-Redu)
 * [Search Operations](#Search-Operations)
+	- [Search Settings](#Search-Settings)
+	- [Search In Current File](#Search-In-Current-File)
+	- [Search In Multiple Files](#Search-In-Multiple-Files)
+	- [Search In Help Files](#Search-In-Help-Files)
 
 ## Vim Modes
 
@@ -303,4 +307,29 @@ To Redu the last Undo.
 
 ## Search Operations
 
+### Search Settings
 
+To perform `incremental` search use the below command in command mode. Search for your pattern using `/` i.e. `/blah`. To jump on another instance of the search pattern use `Ctrl + t` for backward search and `Ctrl+g` for forward search. If you press enter after `/blah` then press `n` for forward search and press `N` for backward search.
+
+> :set incsearch
+
+To perform highlighted search use this command.
+
+> :set hlsearch
+
+Type your search pattern using `/` , it will show you all the instances which will match the search pattern.
+
+To disable incremental and highlighted search use below commands.
+
+```
+:set noincsearch
+:set nohlsearch
+```
+
+### Search In Current File
+
+
+
+### Search In Multiple Files
+
+### Search In Help Files
