@@ -32,6 +32,7 @@
 	- [Swap Files](#Swap-Files)
 	- [Cut Copy Delete And Paste Actions](#Cut-Copy-Delete-And-Paste-Actions)
 	- [Undo And Redu](#Undo-And-Redu)
+* [Search Operations](#Search-Operations)
 
 ## Vim Modes
 
@@ -242,7 +243,7 @@ Step 2: Move to the appropriate line.
 Step 3: Press `J`.
 ```
 
-### Navigation
+## Navigation
 
 |Command  | Description                                    |
 |---------|------------------------------------------------|
@@ -257,13 +258,13 @@ Step 3: Press `J`.
 |Ctrl + f |Scroll down entire page.             		   |
 |ctrl + b |Scroll up entire page.  		   				   |
 
-### Editing Actions
+## Editing Actions
 
-#### Buffer
+### Buffer
 
 It is a temporary memory used by Vim. When we open a Vim file it's content loads from disk drive. when we are editing a file we are actually editing file from buffer. When we finish editing and save file then only buffer contents are transferred to appropriate file.
 
-#### Swap
+### Swap
 
 Swap is a file created by Vim to store buffer content periodically. When editing our file our changes may be lost because of any reason. Vim provides swap file to recover those changes.
 
@@ -271,7 +272,7 @@ To get name of the swap file execute following command.
 
 > :swapname
 
-#### Cut Copy And Paste Actions
+### Cut Copy And Paste Actions
 
 |Command  | Description                                    |
 |---------|------------------------------------------------|
@@ -286,7 +287,7 @@ To get name of the swap file execute following command.
 |Y        |Copy entire line.  							   |
 |yy       |Copy entire line.							   |
 
-#### Undo And Redu
+### Undo And Redu
 
 To undo last action use
 
@@ -299,3 +300,7 @@ To perform multiple undo use
 To Redu the last Undo.
 
 > ctrl + r or :red 
+
+## Search Operations
+
+
